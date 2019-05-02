@@ -8,6 +8,10 @@ body {
 }
 
 
+h2, h3 {
+	color: #DD9630;
+	font-weight: 700;
+}
 
 
 
@@ -36,23 +40,71 @@ body {
 }
 
 .cardlink {
+	font-weight: 600;
 	display: block;
 	  width: 100%;
-		background-color: #de9833;
+		background-color: #9A85C5;
 		border-radius: 2rem 2rem 0 0;
 		text-decoration: none;
 		color: white;
+
 }
 
 .cardlink:hover {
 	text-decoration: none;
-	background-color: #34302e;
+	background-color: #FAFAFB;
+	color: #6444A4;
 }
+
+
+
+.cardlink2 {
+	font-weight: 600;
+	display: block;
+	  width: 100%;
+		background-color: #1E84B2;
+		border-radius: 2rem 2rem 0 0;
+		text-decoration: none;
+		color: #14244C;
+
+}
+
+.cardlink2:hover {
+	text-decoration: none;
+	background-color: #676E85;
+	color: white;
+}
+
+
+
+
+
+
+
 
 .card-thumbnail {
 	border-radius: 3rem;
 	width: 50px;
 	margin-top: 5px;
+}
+
+
+a.news {
+	display: block;
+	padding: 1rem 0;
+	color: #34302D;
+	background-color: #DD9630;
+	font-size: 20px;
+	font-weight: 800;
+
+}
+
+a.news:hover {
+	display: block;
+	text-decoration: none;
+	background-color: #34302D;
+	color: #DD9630;
+
 }
 
 
@@ -78,11 +130,11 @@ body {
 	}
 
 	.social {
-		color: darkgray;
+		color: #963F1B;
 	}
 
 	.social:hover {
-		color: lightblue;
+		color: #DD9630;
 	}
 	  
 }
