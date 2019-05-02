@@ -1,0 +1,141 @@
+
+
+
+
+
+body {
+	background-color: #0d0d0d !important;
+}
+
+
+
+
+
+.hero-image {
+	background-image: url("../images/codbo4hi.jpg");
+	padding: 8rem 0;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.hero-image h1 {
+	text-align: center;
+	font-size: 60px;
+	color: #de9833;
+	text-shadow: 4px 4px 4px black;
+	font-weight: 900;
+}
+
+.hero-image h2 {
+	text-align: center;
+	font-size: 30px;
+	color: #de9833;
+	text-shadow: 4px 4px 4px black;
+	font-weight: 900;
+}
+
+.cardlink {
+	display: block;
+	  width: 100%;
+		background-color: #de9833;
+		border-radius: 2rem 2rem 0 0;
+		text-decoration: none;
+		color: white;
+}
+
+.cardlink:hover {
+	text-decoration: none;
+	background-color: #34302e;
+}
+
+.card-thumbnail {
+	border-radius: 3rem;
+	width: 50px;
+	margin-top: 5px;
+}
+
+
+/* Smaller Phone CSS Adjustment */
+@media only screen 
+  and (min-width: 320px) {
+
+		.hero-image h1 {
+			font-size: 40px;
+		}
+
+		.hero-image h2 {
+			font-size: 20px;
+		}
+
+
+	.card-thumbnail {
+		margin-top: 5px;
+	}
+
+	  body h1 {
+		font-size: 35px;
+	}
+
+	.social {
+		color: darkgray;
+	}
+
+	.social:hover {
+		color: lightblue;
+	}
+	  
+}
+
+
+
+
+
+
+
+
+/* Tablet CSS Adjustment */
+@media only screen 
+  and (min-width: 768px) {
+
+		.hero-image h1 {
+			font-size: 40px;
+		}
+
+	.card-thumbnail {
+		margin-left: 20px;
+	}
+	
+
+	body h1 {
+		font-size: 50px;
+	}
+
+}
+
+
+
+
+/* Laptop and bigger Adjustment */
+
+@media screen 
+  and (min-width: 1200px) { 
+	
+		.hero-image h1 {
+			font-size: 70px;
+		}
+
+		.hero-image h2 {
+			font-size: 50px;
+		}
+
+		.card-thumbnail {
+			margin-left: 10px;
+		}
+
+
+	body h1 {
+		font-size: 50px;
+	}
+
+}

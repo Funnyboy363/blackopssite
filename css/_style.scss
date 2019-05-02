@@ -1,0 +1,32 @@
+
+#body {
+    background-color: #e5e5e5;
+    text-align: center;
+    transition: .3s ease-in-out all;
+}
+
+hr {
+    width: 60%;
+}
+
+#hr {
+    border-top: 1px solid black;
+    transition: .3s ease-in-out all;
+}
+
+#dark-btn {
+    border: none;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out all;
+}
+
+#inner-txt {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 14px;
+    transition: .3s ease-in-out all;
+}
